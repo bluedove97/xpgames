@@ -36,6 +36,19 @@ body {
 .desktop-icon.selected img { filter: brightness(0.6) sepia(1) hue-rotate(180deg) saturate(4); }
 .desktop-icon.selected span { background: #0b61ff; text-shadow: none; }
 
+/* Page description for search engines and screen readers, not drawn on the desktop. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* ---------- XP window chrome ---------- */
 .window {
   position: absolute;

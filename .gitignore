@@ -27,3 +27,7 @@ apps/pinball/data/*
 ads.txt
 robots.txt
 index.bak
+sitemap.xml
+apps/minesweeper/index.html
+apps/solitaire/index.html
+apps/pinball/index.html
